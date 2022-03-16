@@ -1,0 +1,153 @@
+html{
+	overflow-x: auto;
+	overflow-y: auto;
+}
+header{
+	display: inline-block;
+	text-align: left;
+	position: fixed;;
+	width: 100%;
+	font-size: 2vh;
+	background-color: #f1f1f1;
+	padding: 3vh 1vh;
+	top: 0;
+	left: 0;
+	opacity: 100%;
+	z-index: 10;
+}
+footer{
+	display: inline-block;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	font-size: 2vh;
+	background-color: #f1f1f1;
+	padding: 3vh 1vh;
+	left: 0;
+	top: 92vh;
+}
+button:hover{
+	transform: scale(1.05);
+}
+#add-btn{
+	display: inline-block;
+	position: fixed;
+	top: 3.5vh;
+	left: 170vh;
+	z-index: 11;
+}
+#delete-product-btn{
+	display: inline-block;
+	position: fixed;
+	top: 3.5vh;
+	left: 175vh;
+	z-index: 11;
+}
+#save-product-btn{
+	display: inline-block;
+	position: fixed;
+	top: 3.5vh;
+	left: 170vh;
+	z-index: 11;
+}
+#cancel-product-btn{
+	display: inline-block;
+	position: fixed;
+	top: 3.5vh;
+	left: 175vh;
+	z-index: 11;
+}
+.productTable{
+	display: inline-block;
+	position: relative;
+	justify-content: center;
+	width: 17%;
+	height: 20vh;
+	top: 11vh;
+	left: 5vh;
+	border: 1px solid black;
+	padding: 1% 2% 1% 2%;
+	border-radius: 3%;
+	margin: 10px 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+p{
+	line-height: 25px;
+	text-align: center;
+}
+.checkbox{
+	text-align: left;
+}
+.productTable:hover{
+	transform: scale(1.05);
+}
+.aprow1{
+	position: fixed;
+	top: 20vh;
+	left: 15vh;
+}
+.aprow2{
+	position: fixed;
+	top: 25vh;
+	left: 15vh;
+}
+.aprow3{
+	position: fixed;
+	top: 30vh;
+	left: 15vh;
+}
+.aprowsSelector{
+	position: fixed;
+	top: 35vh;
+	left: 30vh;
+}
+#productTypeP{
+	position: fixed;
+	top: 35vh;
+	left: 15vh;
+}
+#sku{
+	position: fixed;
+	top: 20vh;
+	left: 30vh;
+}
+#name{
+	position: fixed;
+	top: 25vh;
+	left: 30vh;
+}
+#price{
+	position: fixed;
+	top: 30vh;
+	left: 30vh;
+}
+#size, #weight, #height{
+	position: fixed;
+	top: 40vh;
+	left: 30vh;
+}
+#sizeLabel, #weightLabel, #heightLabel{
+	position: fixed;
+	top: 40vh;
+	left: 15vh;
+}
+#width{
+	position: fixed;
+	top: 45vh;
+	left: 30vh;
+}
+#widthLabel{
+	position: fixed;
+	top: 45vh;
+	left: 15vh;
+}
+#length{
+	position: fixed;
+	top: 50vh;
+	left: 30vh;
+}
+#lengthLabel{
+	position: fixed;
+	top: 50vh;
+	left: 15vh;
+}
